@@ -46,7 +46,7 @@ body {
     margin: 10px 5px;
 }
 
-.rating:hover {
+.rating:hover, .rating.active {
     border-radius: 4px;
     background: #ccc;
     transition: 1s ease;
@@ -76,4 +76,9 @@ body {
 
 .btn:active {
     transform: scale(0.98);
+}
+
+.heart {
+    font-size: 3rem;
+    margin-bottom: 10px;
 }
